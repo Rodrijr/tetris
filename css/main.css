@@ -1,0 +1,193 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#divloco .figI,
+.figSA,
+.figSB,
+.figLA,
+.figLB,
+.cuadrado {
+   bottom: 0;
+  
+  left:  120px;
+  /*      transition: bottom .5s linear;*/
+}
+
+#divloco .figI:hover,
+.figSA:hover,
+.figSB:hover,
+.figLA:hover,
+.figLB:hover,
+.cuadrado:hover {
+  bottom: -700px;
+  left: 0;
+  transform: rotate(90deg);
+  transition: all 5s linear;
+/*  transition: left 5s linear;*/
+}
+
+div {
+  float: left;
+}
+
+.juego {
+  border: 5px solid black;
+  width: 520px;
+  height: 800PX;
+  margin: 200px;
+  left: 50px;
+  position: relative;
+  right: 0;
+}
+
+.preview {
+  height: 200px;
+  width: 200px;
+  border: 8px solid black;
+  display: inline;
+  align-content: center;
+  margin: 0 20px;
+  /*  padding: 0px;*/
+  padding: 75px 10px;
+  left: 50;
+  right: 0;
+  position: relative;
+  border-style: double;
+  box-sizing: border-box;
+}
+
+.cuadrado {
+  position: relative;
+  height: 120px;
+  width: 120px;
+  box-sizing: border-box;
+  /*  -webkit-transition: bottom 3s linear;*/
+  bottom: 1px;
+}
+
+.cuadrado .linea .cuadro {
+  background-color: darkred;
+  border: 3px solid firebrick;
+}
+
+.figLA {
+  position: relative;
+  height: 120px;
+  margin: 0;
+  bottom: 0;
+  width: 80px;
+  box-sizing: border-box;
+}
+
+.figLA .linea .cuadro {
+  background-color: aquamarine;
+  border: 3px solid cadetblue;
+}
+
+.figLB {
+  position: relative;
+  height: 120px;
+  width: 80px;
+  bottom: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.figLB .linea .cuadro {
+  background-color: forestgreen;
+  border: 3px solid chartreuse;
+}
+
+.figSA {
+  bottom: 0;
+  position: relative;
+  height: 80px;
+  width: 120px;
+  box-sizing: border-box;
+}
+
+.figSA .linea .cuadro {
+  background-color: cornflowerblue;
+  border: 3px solid darkcyan;
+}
+
+.figSB {
+  bottom: 0;
+  position: relative;
+  height: 80px;
+  width: 120px;
+  box-sizing: border-box;
+}
+
+.figSB .linea .cuadro {
+  background-color: coral;
+  border: 3px solid darkgoldenrod;
+}
+
+.figI {
+  position: relative;
+  height: 40px;
+  width: 160px;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.figI .cuadro {
+  background-color: dimgray;
+  border: 3px solid black;
+}
+
+.figI .linea {
+  height: 40px;
+  width: 160px;
+}
+
+.empty {
+  height: 0px;
+  width: 120px;
+}
+
+.linea {
+  height: 40px;
+  min-width: 40px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  box-sizing: border-box;
+}
+
+.cuadro {
+  bottom: 0;
+  margin: 0;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  border: 0px solid black;
+  box-sizing: border-box;
+  display: table-cell;
+}
+
+.cuadroF {
+  bottom: 0;
+  margin: 0;
+  padding: 1px;
+  min-width: 40px;
+  min-height: 0px;
+  border: 0px solid black;
+  box-sizing: border-box;
+  display: table-cell;
+}
+
+ul {
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
